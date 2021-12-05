@@ -16,10 +16,18 @@ Foi feita uma pequena alteração na parte do código que lê a entrada da sequ�
 Para executar (localmente): streamlit run dnaapp.py
 
 
-## 3. EDA Basketbal
+## 3. EDA Basketball
 
 Utiliza web scrapping para pegar dados dos jogadores da NBA disponíveis no site https://www.basketball-reference.com/
 Depois é possível gerar tabelas e mapas de calor dos jogadores de todos times, desde 1950 até 2021, com o uso de filtros.
 Pequenas alterações foram feitas no código para resolver problemas do streamlit e também para deixar o código atualizado (pyplot).
 
 Para executar (localmente): streamlit run basketball_app.py
+
+
+## 4. EDA Football
+
+Assim como o app de basquete, utiliza web scrapping para pegar dados dos jogadores da NFL (https://www.pro-football-reference.com) e gerar tabelas com dados e mapa de calor. O foco é dado nas jardas percorridas pelos jogadores quando partem de trás da linha de scrimmage (rushing).
+Código atualizado (pyplot).
+
+Para executar (localmente): streamlit run football_app.py
